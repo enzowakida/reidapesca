@@ -66,15 +66,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: 0.3s;
 }
 
 .b1 img {
   width: 20px;
   height: 20px;
-  transition: 0.3s;
 }
 
-.b1 :hover {
+.b1:hover {
   opacity: 0.6;
 }
 
@@ -204,12 +204,27 @@
 .main-cards {
   z-index: 0;
   display: grid;
-  grid-template-columns: repeat(4, 260px);
+  grid-template-columns: repeat(4, 280px);
   justify-content: center;
-  gap: 50px;
+  gap: 40px;
   width: 100%;
   padding: 20px;
   background-color: #171719;
+  flex-wrap: wrap;
+}
+
+.catalogo {
+  grid-column: 1 / -1;
+  color: #f6f3f1;
+  padding: 3px 0;
+}
+
+.catalogo h2 {
+  font-size: 40px;
+}
+
+.catalogo p {
+  font-size: 25px;
 }
 
 .card {
