@@ -25,10 +25,13 @@
 .logo {
   display: flex;
   align-items: center;
-  width: 30px;
-  height: 30px;
   object-fit: contain;
   cursor: pointer;
+}
+
+.logo img {
+  width: 60px;
+  height: 60px;
 }
 
 .pesquisa {
@@ -85,7 +88,7 @@
     rgba(8, 8, 9, 1) 10%,
     rgba(7, 78, 40, 1) 100%
   );
-  padding: 50px;
+  padding: 70px;
 
   display: flex;
   align-items: center;
@@ -178,11 +181,12 @@
 
 .imagem {
   flex: 1;
-  min-width: 300px;
+  width: 300px;
 }
 
 .imagem img {
   border-radius: 10px;
+  width: 100%;
 }
 
 .atributos {
