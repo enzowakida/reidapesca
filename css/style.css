@@ -214,7 +214,6 @@
   width: 100%;
   padding: 20px;
   background-color: #171719;
-  flex-wrap: wrap;
 }
 
 .catalogo {
@@ -250,7 +249,7 @@
 
 .card:hover {
   transform: scale(1.04);
-  box-shadow: 0 10px 30px rgba(34, 197, 94, 0.15); /* brilho verde leve */
+  box-shadow: 0 10px 30px rgba(34, 197, 94, 0.15);
 }
 
 .card img {
